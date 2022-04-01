@@ -19,3 +19,47 @@ body{
 #menu form > button {
     font-size: 15px;
 }
+
+#parrafo {
+    text-align: center;
+}
+
+body, ul, figure{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    width: 48%;
+}
+
+ul li figure{
+    padding: 5px;
+    position: relative;
+}
+
+ul li figure:hover figcaption{
+    display: block;
+} 
+
+ul li figcaption{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background: rgba (0,0,400,1);
+    text-align: center;
+    padding: 15px;
+    color:black
+}
+
+img{
+    width: 100%;
+}

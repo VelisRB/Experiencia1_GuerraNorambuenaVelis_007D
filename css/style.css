@@ -112,7 +112,42 @@ div .contenido .post h1{
     color: cadetblue;
 }
 
-p {
+#parrafo {
     text-align: center;
 }
 
+.productoC{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tituloC{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30 px;
+}
+
+.box img{
+    width: 250px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+.box{
+    margin : 15px;
+}
+
+.box h5 {
+    text-align: center;
+}
+
+.imgc {
+    width: 400px;
+    margin: 20px;
+}
+
+#fotoc {
+    text-align: center;
+}

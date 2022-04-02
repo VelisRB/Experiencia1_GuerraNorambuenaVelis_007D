@@ -19,3 +19,22 @@ body{
 #menu form > button {
     font-size: 15px;
 }
+
+.margen {
+    margin: 30px 30px 30PX 30px;
+    padding: 15px; 
+    
+}
+.video {
+    text-align:center;
+    margin: 35px;
+}
+.right{
+    text-align:right;
+}
+#fondo {background-color: #363535;
+ 
+}
+.center{
+    text-align: center;
+}
